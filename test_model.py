@@ -28,8 +28,9 @@ def preprocess_query(query):
     return padded_sequence
 
 # Example queries to test
-test_queries = ["I love the product, but the customer service is terrible.", "The service was exactly what I expected.", "The service was exactly what I expected."]
-test_queries = input("Enter Query : ")
+#test_queries = ["I love the product, but the customer service is terrible.", "The service was exactly what I expected.", "The service was exactly what I expected."]
+#test_queries = input("Enter Query : ")
+test_queries = ""
 while test_queries != "End" :
     test_queries = input("Enter Query : ")
     if test_queries != "End":
